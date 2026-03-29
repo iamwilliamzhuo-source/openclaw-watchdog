@@ -5,14 +5,22 @@ echo "🐾 Installing OpenClaw Smart Watchdog for Mac..."
 
 # Ensure target directories exist
 TARGET_DIR="$HOME/.openclaw/bin"
+SKILL_DIR="$HOME/.openclaw/workspace/skills/bot-safe-protocol"
+
 mkdir -p "$TARGET_DIR"
+mkdir -p "$SKILL_DIR"
 
-# Copy the script
+# Copy scripts and SKILL models
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-cp "$CURRENT_DIR/watchdog-mac.sh" "$TARGET_DIR/watchdog.sh"
-chmod +x "$TARGET_DIR/watchdog.sh"
+REPO_DIR="$(dirname "$CURRENT_DIR")"
 
-echo "✅ Watchdog script deployed to $TARGET_DIR/watchdog.sh"
+cp "$CURRENT_DIR/watchdog-mac.sh" "$TARGET_DIR/watchdog.sh"
+cp "$CURRENT_DIR/safe-restart.sh" "$TARGET_DIR/safe-restart.sh"
+chmod +x "$TARGET_DIR/watchdog.sh" "$TARGET_DIR/safe-restart.sh"
+
+cp "$REPO_DIR/skills/bot-safe-protocol/SKILL.md" "$SKILL_DIR/SKILL.md"
+
+echo "✅ Scripts deployed to $TARGET_DIR / Bot Skill deployed to $SKILL_DIR"
 
 # Enable cron job
 CRON_PAYLOAD="* * * * * $TARGET_DIR/watchdog.sh"
