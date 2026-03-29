@@ -1,6 +1,5 @@
 ---
-name: bot-safe-protocol
-description: Core system survival instruction for AI agents modifying openclaw.json. Prevents suicide loops and unreachable states.
+description: 这个技能就是“事前诸葛亮+事后擦屁股”防御阵。如果你要在终端改写 openclaw.json，必须遵循此说明，否则坠机断网。
 ---
 
 # 🛑 Bot Safe Protocol (Critical Core Directive)

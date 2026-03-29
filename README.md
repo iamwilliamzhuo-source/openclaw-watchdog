@@ -1,10 +1,10 @@
-# OpenClaw Sentinel
+# 🧙‍♂️OpenClaw 诸葛亮擦屁股协议 (Zhuge Liang Safe & Ass-wiping Protocol)
 
 [English](#english) | [中文](#chinese)
 
 <a name="english"></a>
 ## 💡 English Introduction
-An intelligent, cross-platform auto-proxy monitoring script designed specifically for the **OpenClaw Gateway**. Keep your bot gateway connection resilient in dynamic network environments through an innovative "Layer 7 PING Mechanism."
+An intelligent, cross-platform auto-proxy monitoring script with **"Pre-flight Zhuge Liang Diagnostics"** and **"Post-crash Ass-Wiping Rollbacks"**, designed specifically for the **OpenClaw Gateway**.
 
 
 ### ❓ Why do you need this?
@@ -38,8 +38,8 @@ A basic `.ps1` version is included in `scripts/watchdog-win.ps1` that emulates t
 
 <a name="chinese"></a>
 ## 💡 中文介绍
-一个专注于为 **OpenClaw 网关** 定制的“智能自适应代理”级别的看门狗与高可用防线工具。作者：**William Zhuo**。
-这套代码旨在深度解决频繁断网、以及不同网络翻墙情境下的代理失效僵死问题。
+一个专注于为 **OpenClaw 网关** 定制的终极防脑残自杀与强行擦屁股防线套件。作者：**William Zhuo**。
+这套代码旨在深度解决频繁断网，并且特别针对 AI 大语言模型**手欠改错配置引发的一连串坠机惨案**采用了幽默且极其硬核的“诸葛亮+擦屁股”双机制拦截守护。
 
 
 ### ❓ 为什么要使用这个工具？（解决的核心痛点）
