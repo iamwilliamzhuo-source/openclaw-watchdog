@@ -44,8 +44,8 @@ Before arming the Sentinel, please acknowledge the following structural behavior
 #### For macOS/Linux (Recommended)
 You can directly execute the one-click installer:
 ```bash
-git clone https://github.com/iamwilliamzhuo-source/openclaw-watchdog.git
-cd openclaw-watchdog
+git clone https://github.com/iamwilliamzhuo-source/openclaw-watchdog-zhugeliang.git
+cd openclaw-watchdog-zhugeliang
 bash scripts/install-mac.sh
 ```
 
@@ -84,8 +84,8 @@ A basic `.ps1` version is included in `scripts/watchdog-win.ps1` that emulates t
 #### 苹果 Mac (主力平台)
 建议通过以下一行式安装直接布防防线及定时器：
 ```bash
-git clone https://github.com/iamwilliamzhuo-source/openclaw-watchdog.git
-cd openclaw-watchdog
+git clone https://github.com/iamwilliamzhuo-source/openclaw-watchdog-zhugeliang.git
+cd openclaw-watchdog-zhugeliang
 /bin/bash scripts/install-mac.sh
 ```
 
